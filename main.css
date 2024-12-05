@@ -1,0 +1,431 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: "DM Serif Display", sans-serif;
+}
+
+
+.container {
+    max-width: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header {
+    display: flex;
+    padding-top: 124px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    gap: 25px;
+    color: #737373;
+}
+
+.h1 {
+    font-size: 50px;
+    width: 100%;
+}
+
+.Заказать {
+    width: 179px;
+    padding: 15px 0;
+    border-radius: 7px;
+    margin-top: 73px;
+    background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+    color: #fff;
+    border: none;
+    font-size: 20px;
+}
+
+.parent-div {
+    display: flex;
+    align-items: center;
+}
+
+.EVA {
+    margin: 0 auto;
+    text-align: center;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.p-p {
+    width: 289px;
+    font-size: 14px;
+    padding-top: 15px;
+}
+
+.card {
+    width: 344px;
+    box-shadow: rgba(255, 192, 203) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+    border-radius: 9px;
+}
+
+.cards {
+    padding-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.card-text {
+    padding-left: 22px;
+    padding-bottom: 23px;
+}
+
+.jpg {
+    border-top-left-radius: 9px;
+    border-top-right-radius: 9px;
+}
+
+.png {
+    display: none;
+}
+
+.div-h1 {
+    width: 100%;
+    font-size: 18px;
+    font-weight: 300;
+    text-align: center;
+    padding: 53px 40px;
+
+
+}
+
+.card-отзыв {
+    width: 436px;
+    background-color: #fff;
+    border-radius: 10px;
+    height: 200px;
+
+}
+
+
+
+.отзывы {
+    width: 100%;
+    /* height: 357px; */
+    padding: 90px 0 40px 0;
+    background: linear-gradient(94.31deg, rgba(212, 20, 90, 0.25) 0.96%, rgba(46, 49, 146, 0.25) 104.83%);
+    margin-top: 225px;
+
+}
+
+
+
+.card-one__img {
+    position: absolute;
+    top: -100px;
+
+}
+
+.card-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card-one {
+    border-radius: 9px;
+    position: relative;
+    background-color: #fff;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 50px 20px;
+
+    h1 {
+        text-align: center;
+        font-family: Roboto;
+        font-size: 18px;
+        font-weight: 300;
+        line-height: 21.09px;
+        text-align: center;
+
+    }
+}
+
+.card-one-img {
+    width: 100%;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.МЫ {
+    font-size: 14px;
+    text-align: left;
+}
+.footer-div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    
+}
+.div-ul{
+    display: flex;
+    flex-direction: column;
+    gap: 0px;
+}
+footer{
+    padding: 172px 0;
+}
+@media screen and (max-width:838px){
+    .footer {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+    }
+    
+}
+@media screen and (max-width:1339px) {
+    .jpg {
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        width: 270px;
+    }
+
+    .card {
+        width: 270px;
+        box-shadow: rgba(255, 192, 203) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        border-radius: 9px;
+    }
+
+    .p-p {
+        width: 250px;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .card-text {
+        padding-left: 15px;
+        padding-bottom: 23px;
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .jpg {
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+        width: 240px;
+    }
+
+    .card {
+        width: 240px;
+        box-shadow: rgba(255, 192, 203) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        border-radius: 9px;
+    }
+
+    .p-p {
+        width: 220px;
+        font-size: 13px;
+        padding-top: 15px;
+    }
+
+    .card-text {
+        padding-left: 10px;
+        padding-bottom: 23px;
+    }
+}
+
+@media screen and (max-width:746px) {
+    .EVA {
+        margin: 0 auto;
+        text-align: center;
+        font-size: 40px;
+        padding-top: 60px;
+    }
+}
+
+@media screen and (max-width:540px) {
+    .jpg {
+        display: block;
+    }
+
+    .png {
+        display: none;
+
+
+    }
+
+    .card {
+        width: 100%;
+        box-shadow: rgba(255, 192, 203) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        border-radius: 9px;
+    }
+
+    .p-p {
+        width: 100%;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .card-text {
+        padding-left: 37px;
+        padding-bottom: 23px;
+        padding-right: 56px;
+        padding-top: 20px;
+    }
+
+    .cards {
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        gap: 61px;
+        flex-direction: column;
+    }
+
+    .МАТЕРИАЛ {
+        font-size: 36px;
+    }
+
+
+
+}
+
+@media screen and (max-width:1019px) {
+    .ковер {
+        width: 100%;
+    }
+
+    .parent-div {
+        display: flex;
+        align-items: center;
+        padding-top: 60px;
+    }
+
+    .jpg {
+        display: none;
+    }
+
+    .png {
+        display: block;
+        width: 100%;
+        border-top-left-radius: 9px;
+        border-top-right-radius: 9px;
+
+    }
+
+    .card {
+        width: 100%;
+        box-shadow: rgba(255, 192, 203) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+        border-radius: 9px;
+    }
+
+    .p-p {
+        width: 100%;
+        font-size: 14px;
+        padding-top: 15px;
+    }
+
+    .card-text {
+        padding-left: 37px;
+        padding-bottom: 23px;
+        padding-right: 56px;
+        padding-top: 20px;
+    }
+
+    .cards {
+        padding-top: 120px;
+        display: flex;
+        justify-content: space-between;
+        gap: 61px;
+        flex-direction: column;
+    }
+
+    .МАТЕРИАЛ {
+        font-size: 36px;
+    }
+
+}
+
+@media screen and (max-width:659px) {
+    ul {
+        display: flex;
+        gap: 25px;
+        color: #737373;
+        display: none;
+    }
+
+    .Заказать {
+        width: 141px;
+        padding: 12px 0;
+        border-radius: 7px;
+        margin-top: 53px;
+        background: linear-gradient(95.2deg, #B90160 2.23%, #2E3192 99.51%);
+        color: #fff;
+        border: none;
+        font-size: 15px;
+    }
+
+    .h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .ковер {
+        width: 100%;
+        display: none;
+    }
+
+    .left {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-image: url('./подложка\ 1.png');
+        background-repeat: no-repeat;
+        background-position: center;
+
+    }
+
+    .logo {
+        margin: 0 auto;
+    }
+}
+
+@media screen and (max-width:450px) {}
+
+@media screen and (max-width:375px) {
+    .h1 {
+        font-size: 40px;
+        width: 100%;
+    }
+}
+
+@media screen and (max-width:765px) {
+    .card-section {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        flex-direction: column;
+        gap: 100px;
+        margin: 0 auto;
+    }
+
+    .card-one {
+        border-radius: 9px;
+        position: relative;
+        background-color: #fff;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 70px 20px 43px 20px;
+    }
+}
